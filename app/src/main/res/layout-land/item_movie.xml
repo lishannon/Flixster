@@ -3,7 +3,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/rvMovie"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -19,7 +19,7 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/ivTitle"
+        android:id="@+id/tvTitle"
         android:layout_width="702dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -30,10 +30,10 @@
         tools:text="Money Plane" />
 
     <TextView
-        android:id="@+id/ivDescription"
+        android:id="@+id/tvDescription"
         android:layout_width="555dp"
         android:layout_height="81dp"
-        android:layout_below="@+id/ivTitle"
+        android:layout_below="@+id/tvTitle"
         android:layout_marginStart="7dp"
         android:layout_marginTop="-2dp"
         android:layout_toEndOf="@+id/ivPoster"

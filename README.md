@@ -28,3 +28,28 @@ At first, I had trouble understanding RecyclerView, so I decided to watch more v
 
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
 - [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Androids
+
+
+## Flix Part 2
+
+### User Stories
+
+#### REQUIRED (10pts)
+
+- [X] (8pts) Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
+- [X] (2pts) Allow video posts to be played in full-screen using the YouTubePlayerView.
+
+#### BONUS
+- [X] Add a rounded corners for the images using the Glide transformations. (1 point)
+
+### App Walkthough GIF
+
+Flixster.mp4
+
+### Notes
+
+I attempted to complete the other bonus, but I am encountering problems. I added the released date in the detailed page.
+
+## Open-source libraries used
+- [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
+- [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android

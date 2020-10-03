@@ -65,8 +65,6 @@ public class MainActivity extends AppCompatActivity {
                     e.printStackTrace();
                     Log.e(TAG, "Hit JSON exception",e);
                 }
-
-
             }
             // method will be called if the network request is not successful
             @Override
